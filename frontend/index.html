@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT PANEL WITH LOGO -->
+    <div class="left">
+        <img src="image.png" alt="Institute Logo" class="logo">
+        <h1>SYMBIOSIS</h1>
+        <p>Student Feedback Portal</p>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right">
+        <h2>Feedback Form</h2>
+
+        <form id="feedbackForm">
+
+            <!-- Name -->
+            <input type="text" id="name" placeholder="Student Name">
+
+            <!-- Email -->
+            <input type="email" id="email" placeholder="Email ID">
+
+            <!-- Mobile -->
+            <input type="text" id="mobile" placeholder="Mobile Number">
+
+            <!-- Department -->
+            <select id="department">
+                <option value="">Select Department</option>
+                <option>Computer</option>
+                <option>Mechanical</option>
+                <option>IT</option>
+            </select>
+
+            <!-- Gender (FIXED) -->
+            <div class="gender-group">
+                <label>
+                    <input type="radio" name="gender" value="male"> Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+            </div>
+
+            <!-- Feedback -->
+            <textarea id="feedback" placeholder="Enter your feedback (min 10 words)"></textarea>
+
+            <!-- Buttons -->
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+        </form>
+
+        <!-- Error Message -->
+        <p id="error"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
