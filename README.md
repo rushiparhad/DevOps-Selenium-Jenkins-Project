@@ -1,6 +1,6 @@
 # DevOps CA Project - Selenium + Jenkins
 
-## 📌 Project Overview
+ Project Overview
 This project demonstrates a complete DevOps workflow by integrating:
 - Frontend development using HTML, CSS, and JavaScript  
 - Automation testing using Selenium WebDriver (Java)  
@@ -10,7 +10,6 @@ This project demonstrates a complete DevOps workflow by integrating:
 
 ## 🌐 Frontend (Student Feedback Form)
 A responsive and user-friendly feedback form with the following features:
-
 ### 🔹 Input Fields
 - Student Name  
 - Email ID  
